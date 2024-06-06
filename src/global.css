@@ -1,0 +1,29 @@
+:root {
+      --gray-medium: #383838;
+      --gray-light: #EAE9E9;
+      --gray-dark: #1B1818;
+      --red-dark: #9A0C0C;
+}
+
+:focus {
+    outline: transparent;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray-dark);
+    color: var(--gray-light);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
